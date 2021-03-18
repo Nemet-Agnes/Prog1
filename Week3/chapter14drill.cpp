@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-Class B1{
+class B1{
     public:
         virtual void vf() const{
             cout << "B1::vf()" << endl;
