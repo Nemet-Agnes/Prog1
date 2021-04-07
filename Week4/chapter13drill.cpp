@@ -50,19 +50,19 @@ int main(){
 
     win.wait_for_button();
 
-    int oszlopok=0;
+    int sorok=0;
     while(true){
         for(int i=0; i<7; i++){
             masik_kep.move {100,0};
             win.wait_for_button();
         }
-        if(oszlopok==7){
-            oszlopok=0;
+        if(sorok==7){
+            sorok=0;
             masik_kep.move(-700,700);
         }
         else{
             masik_kep.move(-700,100);
-            oszlopok++;
+            sorok++;
         }
         win.wait_for_button();
     }
