@@ -64,7 +64,7 @@ struct Person{
 		p.set_last_name(last);
 		is>>a;
 
-		if(0<=a && a<=150){
+		if(0<=a && a<150){
 				p.set_age(a);
 			}
 		else{
