@@ -33,14 +33,14 @@ struct B2{
 };
 
 struct D21:B2{
-    string data_member_string:"D21:pvf()";
+    string data_member_string = "D21:pvf()";
     void pvf() override{
         cout << data_mamber_string << endl;
     }
 };
 
 struct D22:B2{
-    string data_member_number = 5;
+    string data_member_number = "5";
     void pvf() override {
         cout << data_member_number << endl;
     }
