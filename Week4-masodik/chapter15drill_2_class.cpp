@@ -46,7 +46,7 @@ struct Person{
 		is>>first>>last;
 
 		for(auto letter : first){
-			if(!isalpha(letter) && !isdigit(letter)){
+			if(!isalpha(letter)){
 				cout<<letter<< " letter"<<endl;
 				error("Hibás név");
 			}
