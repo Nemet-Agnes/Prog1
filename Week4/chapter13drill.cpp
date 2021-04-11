@@ -58,7 +58,7 @@ int main(){
         }
         if(sorok==7){
             sorok=0;
-            masik_kep.move(-700,700);
+            masik_kep.move(-700,-700);
         }
         else{
             masik_kep.move(-700,100);
