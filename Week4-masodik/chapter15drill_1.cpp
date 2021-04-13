@@ -20,7 +20,7 @@ double cos_slope(double x){
 
 int main(){
 	int win_height=600, win_width=600;
-	Point kozep{win_width/2,win_height/2};
+	Point origo{win_width/2,win_height/2};
 
 	Simple_window win (Point{100,100},win_width,win_height,"Function graphs");
 
